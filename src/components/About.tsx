@@ -5,10 +5,10 @@ import { CheckCircle2 } from "lucide-react";
 
 const uniqueSellingPoints = [
   "Dukungan di lokasi (on-site) dan jarak jauh (remote)",
-  "Kemampuan komunikasi multibahasa",
-  "Berpengalaman di berbagai sektor industri",
+  "Kemampuan komunikasi yang baik",
+  "Berpengalaman di berbagai tantangan IT",
   "Pendekatan pemeliharaan yang proaktif",
-  "Keterampilan komunikasi yang sangat baik"
+  "Peningkatan keamanan sistem dan efisiensi kerja"
 ];
 
 export function About() {
@@ -20,7 +20,7 @@ export function About() {
             <Card className="rounded-xl shadow-lg overflow-hidden border-2 border-primary/10 w-full max-w-sm">
                 <Image
                     src="https://placehold.co/400x500.png"
-                    alt="Foto Profesional IT Support"
+                    alt="Foto Profesional Firdha Roofi Irawan"
                     width={400}
                     height={500}
                     className="object-cover w-full h-full"
@@ -31,10 +31,10 @@ export function About() {
           <div className="md:col-span-2 space-y-6">
             <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">Tentang Saya</h2>
             <p className="text-lg text-muted-foreground">
-              Dengan pengalaman lebih dari 5 tahun sebagai IT Support, saya memiliki hasrat mendalam untuk memecahkan masalah dan membantu pengguna. Pendekatan saya yang berorientasi pada pelanggan memastikan setiap masalah teknis ditangani dengan efisien, efektif, dan komunikasi yang jelas.
+              Spesialis Support & Infrastruktur Information Technology dengan lebih dari lima tahun pengalaman yang berfokus pada peningkatan efisiensi operasional, keandalan sistem dan memberikan dukungan teknis baik onsite maupun remote.
             </p>
             <p className="text-muted-foreground">
-              Saya memegang sertifikasi industri seperti CompTIA A+ dan Network+, yang menjadi bukti komitmen saya terhadap keunggulan teknis. Saya percaya pada pemeliharaan proaktif untuk mencegah masalah sebelum terjadi, memastikan kelancaran operasional bisnis Anda.
+              Saya mampu beradaptasi dengan cepat dengan kemampuan komunikasi yang baik dalam merancang, mengimplementasikan dan mengimprovisasi solusi ketika menghadapi tantangan dalam bidang teknologi informasi. Berkomitmen terhadap peningkatan keamanan sistem, efisiensi kerja dan kepuasan pengguna.
             </p>
             <div className="grid sm:grid-cols-1 md:grid-cols-2 gap-4">
               {uniqueSellingPoints.map((point, index) => (

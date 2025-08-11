@@ -18,16 +18,16 @@ export function Footer() {
       <div className="container mx-auto px-4 md:px-6 py-8 flex flex-col sm:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-2">
             <ShieldCheck className="h-6 w-6 text-primary" />
-            <span className="font-semibold">TechAssist Pro</span>
+            <span className="font-semibold">Firdha Roofi Irawan</span>
         </div>
         <p className="text-sm text-muted-foreground text-center">
-          &copy; {currentYear} TechAssist Pro. All rights reserved.
+          &copy; {currentYear} Firdha Roofi Irawan. All rights reserved.
         </p>
         <div className="flex items-center gap-4">
-            <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
+            <Link href="https://www.linkedin.com/in/roofi/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
                 <Linkedin className="h-6 w-6 text-muted-foreground hover:text-primary transition-colors"/>
             </Link>
-             <Link href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Business">
+             <Link href="https://wa.me/628990913735" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Business">
                 <WhatsAppIcon className="h-6 w-6 fill-current text-muted-foreground hover:text-accent transition-colors"/>
             </Link>
         </div>

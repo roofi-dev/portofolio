@@ -3,10 +3,10 @@ import Image from "next/image";
 import { Card, CardContent } from "@/components/ui/card";
 
 const certifications = [
-  { name: "CompTIA A+", logo: "https://placehold.co/200x150.png", hint: "certification badge" },
-  { name: "CompTIA Network+", logo: "https://placehold.co/200x150.png", hint: "certification logo" },
-  { name: "Microsoft 365 Certified: Fundamentals", logo: "https://placehold.co/200x150.png", hint: "tech certificate" },
-  { name: "ITIL Foundation Certificate", logo: "https://placehold.co/200x150.png", hint: "ITIL badge" },
+  { name: "Google IT Support Professional", logo: "https://placehold.co/200x150.png", hint: "Coursera certification badge" },
+  { name: "IBM Technical Support", logo: "https://placehold.co/200x150.png", hint: "IBM certificate" },
+  { name: "Fullstack Developer with Ruby", logo: "https://placehold.co/200x150.png", hint: "Kominfo certification logo" },
+  { name: "React Developer", logo: "https://placehold.co/200x150.png", hint: "Digitalent badge" },
 ];
 
 export function Certifications() {

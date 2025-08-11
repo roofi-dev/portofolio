@@ -1,23 +1,14 @@
-import type {NextConfig} from 'next';
+import { NextConfig } from 'next';
+
+const isProd = process.env.NODE_ENV === 'production';
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  typescript: {
-    ignoreBuildErrors: true,
-  },
-  eslint: {
-    ignoreDuringBuilds: true,
-  },
+  output: 'export',
   images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'placehold.co',
-        port: '',
-        pathname: '/**',
-      },
-    ],
+    unoptimized: true,
   },
+  basePath: isProd ? '/portofolio' : '',
+  assetPrefix: isProd ? '/portofolio/' : '',
 };
 
 export default nextConfig;

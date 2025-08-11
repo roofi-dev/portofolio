@@ -3,8 +3,8 @@ import './globals.css';
 import { Toaster } from "@/components/ui/toaster"
 
 export const metadata: Metadata = {
-  title: 'TechAssist Pro | Solusi IT Andal untuk Bisnis Anda',
-  description: 'Portfolio profesional seorang IT Support dengan keahlian dalam troubleshooting, administrasi jaringan, dan pemeliharaan sistem. Siap membantu bisnis Anda berjalan 24/7.',
+  title: 'Firdha Roofi Irawan | IT Support Specialist',
+  description: 'Portofolio Firdha Roofi Irawan, seorang IT Support Specialist dengan pengalaman lebih dari 5 tahun dalam troubleshooting, administrasi jaringan, dan pemeliharaan sistem. Siap membantu bisnis Anda.',
 };
 
 export default function RootLayout({

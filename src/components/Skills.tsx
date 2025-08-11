@@ -1,32 +1,32 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { HardDrive, AppWindow, Network, Ticket, ShieldCheck, Check } from "lucide-react";
+import { HardDrive, Server, Network, ShieldCheck, Code, Check } from "lucide-react";
 
 const skillsData = [
   {
-    category: "Hardware",
-    icon: <HardDrive className="h-8 w-8 text-primary" />,
-    skills: ["Troubleshooting PC/Laptop", "Perawatan Printer", "Manajemen Perangkat Jaringan", "Instalasi Komponen"],
+    category: "Administrasi Sistem & Infra",
+    icon: <Server className="h-8 w-8 text-primary" />,
+    skills: ["Windows Server & Linux", "Virtualisasi (VMware, Hyper-V)", "Backup & Recovery Systems", "Cloud Storage (Nextcloud)"],
   },
   {
-    category: "Software",
-    icon: <AppWindow className="h-8 w-8 text-primary" />,
-    skills: ["Windows & macOS", "Microsoft Office 365", "Active Directory", "Remote Desktop Tools"],
-  },
-  {
-    category: "Jaringan",
+    category: "Jaringan & Keamanan",
     icon: <Network className="h-8 w-8 text-primary" />,
-    skills: ["Konfigurasi LAN/WAN", "Protokol TCP/IP", "Setup VPN", "Dasar-dasar Firewall"],
+    skills: ["Konfigurasi LAN/WAN & TCP/IP", "Cisco Routing/Switching", "Firewall Management & VPN", "Enkripsi & Keamanan Data"],
   },
   {
-    category: "Help Desk",
-    icon: <Ticket className="h-8 w-8 text-primary" />,
-    skills: ["Sistem Tiket (Jira, Zendesk)", "Dokumentasi Teknis", "Pelatihan Pengguna", "Manajemen SLA"],
+    category: "Pengembangan Web",
+    icon: <Code className="h-8 w-8 text-primary" />,
+    skills: ["PHP, Laravel, MySQL", "HTML/CSS, JavaScript", "WordPress Development", "React JS (Dasar)"],
   },
   {
-    category: "Keamanan",
+    category: "Dukungan Hardware",
+    icon: <HardDrive className="h-8 w-8 text-primary" />,
+    skills: ["Troubleshooting PC/Laptop", "Perawatan Printer", "Manajemen Perangkat IT", "Instalasi Komponen"],
+  },
+  {
+    category: "Soft Skills",
     icon: <ShieldCheck className="h-8 w-8 text-primary" />,
-    skills: ["Manajemen Antivirus", "Solusi Backup & Recovery", "Edukasi Keamanan Siber", "Patch Management"],
+    skills: ["Problem Solving", "Komunikasi & Negosiasi", "Manajemen Waktu", "Leadership & Manajemen Tim"],
   },
 ];
 
@@ -35,9 +35,9 @@ export function Skills() {
     <section id="keahlian" className="py-20 md:py-28 bg-card">
       <div className="container mx-auto px-4 md:px-6">
         <div className="text-center space-y-4 mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">Keahlian Teknis</h2>
+          <h2 className="text-3xl md:text-4xl font-bold font-headline text-primary">Keahlian Teknis & Soft Skill</h2>
           <p className="max-w-2xl mx-auto text-lg text-muted-foreground">
-            Menguasai berbagai teknologi untuk memberikan solusi IT yang komprehensif dan efektif.
+            Menguasai berbagai teknologi dan kemampuan interpersonal untuk memberikan solusi IT yang komprehensif.
           </p>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -1,16 +1,21 @@
 
 import { Card, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Wrench, Network, Settings, UserCheck, Laptop, ServerCog } from "lucide-react";
+import { Wrench, Network, Settings, UserCheck, ServerCog, Database } from "lucide-react";
 
 const servicesData = [
   {
     title: "Technical Support & Troubleshooting",
-    description: "Diagnosis dan penyelesaian masalah hardware dan software dengan cepat dan efektif.",
+    description: "Diagnosis dan penyelesaian masalah hardware, software, dan jaringan dengan cepat dan efektif.",
     icon: <Wrench className="h-10 w-10 text-accent" />,
   },
   {
-    title: "Administrasi Jaringan",
-    description: "Pengelolaan dan pemeliharaan jaringan LAN/WAN untuk memastikan konektivitas yang stabil.",
+    title: "Administrasi Sistem & Server",
+    description: "Pengelolaan dan pemeliharaan server Windows & Linux untuk memastikan kestabilan dan keamanan.",
+    icon: <ServerCog className="h-10 w-10 text-accent" />,
+  },
+  {
+    title: "Manajemen Jaringan & Keamanan",
+    description: "Konfigurasi LAN/WAN, firewall, dan VPN untuk memastikan konektivitas yang aman dan stabil.",
     icon: <Network className="h-10 w-10 text-accent" />,
   },
   {
@@ -19,19 +24,14 @@ const servicesData = [
     icon: <Settings className="h-10 w-10 text-accent" />,
   },
   {
-    title: "Pelatihan & Dokumentasi Pengguna",
-    description: "Memberikan pelatihan kepada pengguna dan membuat dokumentasi yang mudah dipahami.",
+    title: "Backup & Data Recovery",
+    description: "Implementasi strategi pencadangan dan pemulihan data untuk melindungi aset digital bisnis Anda.",
+    icon: <Database className="h-10 w-10 text-accent" />,
+  },
+  {
+    title: "Pelatihan & Edukasi Pengguna",
+    description: "Memberikan pelatihan dan edukasi keamanan siber kepada pengguna untuk meningkatkan kesadaran.",
     icon: <UserCheck className="h-10 w-10 text-accent" />,
-  },
-  {
-    title: "Layanan Dukungan Jarak Jauh",
-    description: "Memberikan bantuan teknis secara remote untuk penyelesaian masalah yang lebih cepat.",
-    icon: <Laptop className="h-10 w-10 text-accent" />,
-  },
-  {
-    title: "Setup Infrastruktur IT",
-    description: "Membantu dalam perencanaan dan pemasangan infrastruktur IT untuk kantor baru atau upgrade.",
-    icon: <ServerCog className="h-10 w-10 text-accent" />,
   },
 ];
 

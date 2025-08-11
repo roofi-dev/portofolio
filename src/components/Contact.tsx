@@ -58,13 +58,13 @@ export function Contact() {
             <h3 className="text-xl font-semibold">Atau hubungi melalui:</h3>
             <div className="space-y-4">
                 <Button asChild variant="outline" className="w-full justify-start h-14 text-lg border-2 hover:bg-primary/5 hover:border-primary">
-                    <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
+                    <Link href="https://www.linkedin.com/in/roofi/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
                         <Linkedin className="h-7 w-7 text-primary" />
                         LinkedIn Profile
                     </Link>
                 </Button>
                 <Button asChild variant="outline" className="w-full justify-start h-14 text-lg border-2 hover:bg-accent/5 hover:border-accent">
-                    <Link href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
+                    <Link href="https://wa.me/628990913735" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4">
                          <WhatsAppIcon className="h-7 w-7 text-accent fill-current" />
                         WhatsApp Business
                     </Link>

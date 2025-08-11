@@ -32,7 +32,7 @@ export function Header() {
       <div className="container mx-auto flex h-20 items-center justify-between px-4 md:px-6">
         <Link href="#home" className="flex items-center gap-2 font-bold text-lg text-primary">
           <ShieldCheck className="h-7 w-7" />
-          <span className="font-headline">TechAssist Pro</span>
+          <span className="font-headline">Firdha Roofi Irawan</span>
         </Link>
         <nav className="hidden items-center gap-6 md:flex">
           {navLinks.map((link) => (
@@ -58,7 +58,7 @@ export function Header() {
               <div className="flex flex-col gap-6 p-6">
                 <Link href="#home" className="flex items-center gap-2 font-bold text-lg text-primary" onClick={() => setOpen(false)}>
                     <ShieldCheck className="h-7 w-7" />
-                    <span className="font-headline">TechAssist Pro</span>
+                    <span className="font-headline">Firdha Roofi I.</span>
                 </Link>
                 <nav className="flex flex-col gap-4">
                   {navLinks.map((link) => (
